@@ -125,7 +125,7 @@ The infrastructure has been tested with the following system configuration:
 
     ```bash
     cd $PYTHIA_HOME/scripts
-    wget https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20210505-linux-x86_64.tar.gz
+    wget https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20210505-linux-x86_64.tar.gz --no-check-certificate
     tar -xvf megatools-1.11.0-git-20210505-linux-x86_64.tar.gz
     ```
 1. Use the `download_traces.pl` perl script to download necessary ChampSim traces used in our paper.
