@@ -189,7 +189,7 @@ Our experimental workflow consists of two stages: (1) launching experiments, and
 3. Rollup statistics as follows. _Please make sure the paths used in tlist and exp files are appropriate_.
    
       ```bash
-      cd experiements_1C/
+      cd experiments_1C/
       perl ../../scripts/rollup.pl --tlist ../MICRO21_1C.tlist --exp ../MICRO21_1C.exp --mfile ../rollup_1C_base_config.mfile > rollup.csv
       ```
 
